@@ -1,0 +1,204 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('fonts/roboto/Roboto-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6em;
+    color: #fff;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+.title {
+    font-size: 40px;
+    color: #585858;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.description {
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+/* banner */
+
+#banner {
+    height: auto;
+    background: url('img/bg1.jpg') 0 0/cover no-repeat;
+    text-align: center;
+    padding: 100px;
+}
+
+#banner img {
+    margin-top: 100px;
+}
+
+#banner i {
+    font-size: 70px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+/* infor */
+
+#infor {
+    height: auto;
+    text-align: center;
+    padding: 100px;
+}
+
+#infor img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#infor .right {
+    text-align: left;
+}
+
+#infor h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+#infor p {
+    margin-top: 20px;
+}
+
+#infor h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ccc;
+}
+
+#infor button {
+    margin-top: 30px;
+    background-color: hotpink;
+}
+
+/* box */
+
+.box {
+    background: url('img/parallax-bg.jpg')0 0/cover no-repeat;
+    margin-top: 70px;
+    text-align: center;
+    padding: 50px;
+    height: auto;
+}
+
+.box i {
+    color: #fff;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.box i:hover {
+    color: hotpink;
+}
+
+.box h1 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* photos */
+
+#photos {
+    height: auto;
+    text-align: center;
+    padding: 100px;
+    background: #f4f4f4;
+}
+
+#photos img {
+    width: 20%;
+    display: inline-table;
+    margin-left: 5px;
+}
+
+/* formm */
+
+#formm {
+    padding: 100px;
+    text-align: center;
+    height: auto;
+}
+
+#formm .form {
+    text-align: left;
+    background: #f4f4f4;
+    width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#formm .form label {
+    color: #585858;
+}
+
+#formm .form button {
+    background-color: hotpink;
+    width: 100%;
+}
+
+#formm i {
+    font-size: 20px;
+    color: #585858;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    background-color: hotpink;
+    padding: 30px;
+}
+
+footer p {
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        width: 100%;
+    }
+    .title {
+        font-size: 30px;
+        color: #585858;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+    .description {
+        width: 100%;
+        margin-top: 20px;
+        padding-bottom: 50px;
+    }
+    #formm .form {
+        text-align: left;
+        background: #f4f4f4;
+        width: 200px;
+        margin: 50px auto;
+        padding: 20px;
+        border-radius: 5px;
+    }
+}
